@@ -45,7 +45,7 @@ class _LogInState extends State<LogIn> {
               textCapitalization: TextCapitalization.words,
               decoration: InputDecoration(label: const Text("password"),
                   prefixIcon: const Icon(Icons.lock),
-                  suffixIcon:  IconButton(icon: Icon(Icons.remove_red_eye),
+                  suffixIcon:  IconButton(icon: const Icon(Icons.remove_red_eye),
                     onPressed: () {
                       setState(() {
                         _obsecure=!_obsecure;
